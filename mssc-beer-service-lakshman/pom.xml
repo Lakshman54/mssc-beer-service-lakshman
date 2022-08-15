@@ -14,7 +14,12 @@
 	<name>mssc-beer-service-lakshman</name>
 	<description>mssc-beer-service-lakshman</description>
 	<properties>
-		<java.version>17</java.version>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
+		<java.version>11</java.version>
+		<jaxb.version>2.3.0</jaxb.version>
+		<maven.compiler.source>${java.version}</maven.compiler.source>
+		<maven.compiler.target>${java.version}</maven.compiler.target>
 	</properties>
 	<dependencies>
 		<dependency>
